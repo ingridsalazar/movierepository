@@ -8,9 +8,9 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Find Movies</title>
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script type="text/javascript">
             var cadena = '';
             var peliculas = '';
@@ -39,7 +39,7 @@ and open the template in the editor.
 
             $(document).ready(function () {
                 $(':text:first').focus();
-                var url = 'http://api.themoviedb.org/3/';
+                var url = '//api.themoviedb.org/3/';
                 var mode = 'search/person?query=';
                 var key = '&api_key=cfda3111aff857552ddbdb06e50bb825';
                 var input = '<?php echo $_POST['nameActor']; ?>';
